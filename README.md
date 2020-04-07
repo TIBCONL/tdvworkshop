@@ -9,6 +9,7 @@ Authors	:	Machiel Jacobs, Alain Martens
 ### Table of Contents
 [TOC]
 
+BLA
 
 1. Guided Lab: Getting started 
 
@@ -17,9 +18,9 @@ Authors	:	Machiel Jacobs, Alain Martens
 You work as a data engineer for an retailer of electronic called UniTech. \
 UniTech recently started a program which allows them to make data driven decision. To do so UniTech has hired business analysts and data scientists to help them find insights in data and construct predictive models.
 
-The challenge however is that data is spread over various data sources, is stored in various formats (tabular, flat files, etc.) and is located in various locations (cloud and on premise).
+The challenge however is that data is spread over various data sources, stored in various formats (tabular, flat files, etc.) and is located in various locations (cloud and on premise).
 
-You've been asked to facilitate these business analysts and data scientists by preparing data such that it can be used for analytical purposes. Some key questions you're asked to find the answers to are:
+You've been asked to facilitate the business analysts and data scientists by preparing data such that it can be used for analytical purposes. Some key questions you're asked to find the answers to are:
 
 
 
@@ -36,7 +37,7 @@ In order to perform these tasks you've been given 2 things:
 2. TIBCO Data Virtualization. 
 
  \
-The steps we'll take together are: 
+During this workshop we'll take the following steps together: 
 
 
 
