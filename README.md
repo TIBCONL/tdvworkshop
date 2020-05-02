@@ -2,14 +2,13 @@
 ## TIBCO Data Virtualization
 
 ## Lab Guide
-Version: 1.0
+Version: 1.1
 
 Authors	:	Machiel Jacobs, Alain Martens
 
 ### Table of Contents
 [TOC]
 
-BLA
 
 1. Guided Lab: Getting started 
 
@@ -63,8 +62,7 @@ We will then explore how we can view that data in multiple different ways as wel
 1. From the desktop of your virtual machine, select the Start Menu and click **Start TDV Studio8.2**.
 
 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold"><img src=images/image38.png></image></span></p>
+<img src=images/image38.png width="80%"></image>
 
 
 2. Enter **admin** as username and use **tdvadmin** as password and click **Connect**.
