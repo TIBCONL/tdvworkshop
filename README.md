@@ -159,8 +159,8 @@ _We'll now continue to make a connection to a data table located in a MSSQL data
 2. **Host**: localhost.
 3. **Port**: 1433
 4. **Database Name**: IntroDemoCustomer
-5. **Login**: sfadmin
-6. **Password**: sfadmin
+5. **Login**: sa
+6. **Password**: Tibco@123
 7. Click **Create & Introspect**.
 
 
