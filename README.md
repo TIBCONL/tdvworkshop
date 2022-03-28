@@ -59,7 +59,7 @@ We will then explore how we can view that data in multiple different ways as wel
 
 
 1. Connecting to Data Sources with TIBCO Data Virtualization
-1. From the desktop of your virtual machine, select the Start Menu and click **Start TDV Studio8.2**.
+1. From the desktop of your virtual machine, select the Start Menu and click **Start TDV Studio8.5**.
 
 
 <img src=images/image38.png width="80%"></image>
@@ -80,7 +80,7 @@ _When we enter the Studio, we see a few different sections. On the left, we have
 
 
 3. Expand the **Desktop** and **Shared** folders.
-4. Right Click on the **Shared** folder and name it **IntroDemoOven[FIRST LETTER + YOUR LAST NAME]**to create your first data source. So for example; **IntroDemoOvenAMARTENS**
+4. Right Click on the **IntroDemoOven** folder under the **Shared** folder and rename it **IntroDemoOven[FIRST LETTER + YOUR LAST NAME]**. For example; **IntroDemoOvenAMARTENS** To create your first data source:
     1. Select **New > New Data Source**.
 
 
@@ -201,7 +201,7 @@ _At this point in time we've successfully added connections to 2 database. We ha
 
     20. Enter the corresponding information:
 1. **Name**: Product Descriptions.
-2. **Root Path**: C:\Program Files\TIBCO\TDV Server 8.2\docs\examples
+2. **Root Path**: C:\Program Files\TIBCO\TDV Server 8.5\docs\examples
 3. Click **Create & Introspect**.
 
 
@@ -253,7 +253,7 @@ _In order to expose data to our end users, we want to create an easily understoo
 <p id="gdcalert20" ><span style="color: red; font-weight: bold"><img src=images/image70.png></image></span></p>
 
 
-_The first layer we are creating is the Physical Layer. This maps most closely to our data sources, bringing in the components of the sources that are of interest to our end users and preparing that data to be joined with other sources at a higher layer._
+_The first layer we are creating is the Meta Data Layer. This maps most closely to our data sources, bringing in the components of the sources that are of interest to our end users and preparing that data to be joined with other sources at a higher layer._
 
 
 
@@ -392,7 +392,7 @@ _Now that we have our physical layer set up, we want to expose data in a way tha
 
 
 
-    8. Expand **L1_Physical** and drag **L1_Order** and **L1_OrderDetails** onto the canvas.
+    8. Expand **L1_MetaLayer** and drag **L1_Order** and **L1_OrderDetails** onto the canvas.
     9. Drag **orderid** from **L1_Order**onto **orderid** in **L1_OrderDetails** to link the two tables based on **orderid**.
     10. Select the **Grid** tab at the bottom of the screen.
 
@@ -448,7 +448,7 @@ _Now that we have our data selected, we want to add sorting to our data to make 
 
 <p id="gdcalert43" ><span style="color: red; font-weight: bold"><img src=images/image4.png></image></span></p>
 
-9. In the Resource Tree on the left, right click on the **L2_Canonical** folder to add a view for our Customer Activity Data.
+9. In the Resource Tree on the left, right click on the **L2_BusinessLayer** folder to add a view for our Customer Activity Data.
     1. Select **New > New View**. 
     2. Name your new view **L2_CustomerActivity**.
 
