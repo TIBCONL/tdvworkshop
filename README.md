@@ -2,7 +2,7 @@
 ## TIBCO Data Virtualization
 
 ## Lab Guide
-Version: 1.1
+Version: 1.2
 
 Authors	:	Machiel Jacobs, Alain Martens
 
