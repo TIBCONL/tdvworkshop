@@ -102,7 +102,7 @@ _When we enter the Studio, we see a few different sections. On the left, we have
     4. Enter the corresponding database information:
         1. **Name**: Order Data.
         2. **Host**: localhost.
-        3. **Port**: 9508
+        3. **Port**: 9408
         4. **Database Name**: orders
         5. **Login**: tutorial
         6. **Password**: tutorial
@@ -145,7 +145,7 @@ _We'll now continue to make a connection to a data table located in a MSSQL data
 <p id="gdcalert9" ><span style="color: red; font-weight: bold"><img src=images/image57.png></image></span></p>
 
 
-    10. Search for Microsoft in the find box and select **Microsoft SQL Server 2012**.
+    10. Search for Microsoft in the find box and select **Microsoft SQL Server 2016**.
     11. Click **Next.**
 
 
@@ -156,7 +156,7 @@ _We'll now continue to make a connection to a data table located in a MSSQL data
 
     12. Enter the corresponding database information:
 1. **Name**: Customer Data.
-2. **Host**: localhost.
+2. **Host**: 34.241.5.232
 3. **Port**: 1433
 4. **Database Name**: IntroDemoCustomer
 5. **Login**: sa
@@ -201,7 +201,7 @@ _At this point in time we've successfully added connections to 2 database. We ha
 
     20. Enter the corresponding information:
 1. **Name**: Product Descriptions.
-2. **Root Path**: C:\Program Files\TIBCO\TDV Server 8.5\docs\examples
+2. **Root Path**: C:\Program Files\TIBCO\TDV Server 8.5.2\docs\examples
 3. Click **Create & Introspect**.
 
 
