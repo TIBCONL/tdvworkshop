@@ -1,0 +1,4 @@
+equipment,datetime,Statereason,errorcode
+Machine1,0,Production,
+Machine1,3,Error,11111
+Machine1,10,Production,
